@@ -35,6 +35,6 @@ class ReviewView(ModelView):
     page_size = 10
 
 
-admin.add_view(FilmView(Film, SessionLocal))
-admin.add_view(UserView(User, SessionLocal))
-admin.add_view(ReviewView(Review, SessionLocal))
+admin.add_view(FilmView(Film, SessionLocal()))
+admin.add_view(UserView(User, SessionLocal()))
+admin.add_view(ReviewView(Review, SessionLocal()))
