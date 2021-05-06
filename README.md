@@ -1,10 +1,13 @@
 # Film Rating System
 REST API for film rating system. 
 
-Docs are located at `/docs`, 
-admin menu at `/admin`.
+## Documentation
+- [Postman docs](https://documenter.getpostman.com/view/11613270/TzRPkVJH)
+- Swagger docs are located at `/docs`
+- Admin menu at `/admin`
 
-### Migrate database
+## Commands
+### Migrate database:
     make migrate
 
 ### Run server:
